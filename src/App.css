@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+@media (max-width: 1150px){
+  .page-Wrapper {
+   flex-direction: column;
+  }
+  .containerSearchSave { 
+    width: 100% !important;
+   }
+
+   .containerInfo {
+    width: 100% !important;
+  }
+  .initialTitles{
+    padding: 20px;
+    margin-left: 15px !important;
+  }
+}
+.App {
+  color: white;
+  background-color: rgb(52, 64, 75);
+}
+
+.initialTitles{
+  padding: 20px;
+  margin-left: 90px;
+}
+
+.page-Wrapper {
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+.containerSearchSave {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.containerInfo {
+  width: 30%;
+  padding-bottom: 10px;
+}
