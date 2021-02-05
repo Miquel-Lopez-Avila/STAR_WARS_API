@@ -8,7 +8,7 @@ export const UserSaved = styled.div`
 `;
 
 export const Img = styled.img` 
-  width: 350px;
+  max-width: 350px;
   height:350px;
 `;
 
